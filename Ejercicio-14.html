@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+
+    <script lenguaje="javascript">
+        {
+            var contador 
+            contador = 8;
+            while(contador > 7 )
+            {
+                let dato = prompt(`Introduce el numero del 0 al 10 :',' `);
+                let num = parseInt(dato);
+                    
+                        if(num < 0)
+                        {
+                            num = num * -1;                   
+                        }
+
+                        if(num > 10)
+                        {
+                            alert(`El numero digitado (${num}) no se encuentra en el rango solicitado`);
+                            //rturn ;
+                        }
+                        else{
+                            document.write(`El numero introducido es ${num} <br/>`); 
+                        }
+
+                        if(num == 7)
+                        {
+                        contador = num ;
+                        }
+                                        
+                        
+                    
+                    
+            }    
+        }
+    </script>
+    
+    </body>
+    </html>
+    
